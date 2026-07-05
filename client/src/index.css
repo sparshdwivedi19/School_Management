@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 transition-colors duration-300 antialiased;
+  }
+  
+  .dark body {
+    @apply bg-dark-bg text-dark-text;
+  }
+}
+
+@layer components {
+  /* Glassmorphism utility classes */
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-glass;
+  }
+  
+  .dark .glass {
+    @apply bg-dark-surface/70 backdrop-blur-md border border-slate-700/50 shadow-glass-dark;
+  }
+  
+  /* Input fields */
+  .input-field {
+    @apply w-full px-4 py-2 rounded-lg border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all;
+  }
+  
+  .dark .input-field {
+    @apply bg-dark-surface border-slate-700 text-white focus:ring-primary-500;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    @apply px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 active:transform active:scale-95 transition-all shadow-md font-medium;
+  }
+}

@@ -1,0 +1,7 @@
+2026-06-29 10:56:07 [error]: TypeError: next is not a function
+    at model.<anonymous> (F:\PROJECTS\Suncity\server\src\models\User.model.js:51:3)
+    at async Kareem.execPre (F:\PROJECTS\Suncity\node_modules\kareem\index.js:61:24)
+    at async model.$__save (F:\PROJECTS\Suncity\node_modules\mongoose\lib\model.js:403:5)
+    at async maybeTracedSave (F:\PROJECTS\Suncity\node_modules\mongoose\lib\model.js:675:7)
+    at async Function.create (F:\PROJECTS\Suncity\node_modules\mongoose\lib\model.js:2763:5)
+    at async seedData (F:\PROJECTS\Suncity\server\src\utils\seeder.js:33:7)
