@@ -29,3 +29,11 @@
 2026-07-05 20:50:10 [info]: [LOGIN PASSWORD CHECK] isMatch for 'teacher@suncity.com': true
 2026-07-05 20:50:42 [info]: [LOGIN ATTEMPT] Email provided: 'teacher@suncity.com', Password provided: 'Password123!'
 2026-07-05 20:50:43 [info]: [LOGIN PASSWORD CHECK] isMatch for 'teacher@suncity.com': true
+2026-07-05 20:53:02 [info]: ✅ MongoDB Connected: localhost
+2026-07-05 20:53:02 [info]: 🚀 Server running in development mode on port 5000
+2026-07-05 22:48:24 [info]: [LOGIN ATTEMPT] Email provided: 'student@suncity.com', Password provided: 'Password123!'
+2026-07-05 22:48:25 [info]: [LOGIN PASSWORD CHECK] isMatch for 'student@suncity.com': true
+2026-07-05 22:49:53 [info]: [LOGIN ATTEMPT] Email provided: 'student@suncity.com', Password provided: 'Password123!'
+2026-07-05 22:49:53 [info]: [LOGIN PASSWORD CHECK] isMatch for 'student@suncity.com': true
+2026-07-05 22:54:21 [info]: [LOGIN ATTEMPT] Email provided: 'student@suncity.com', Password provided: 'Password123!'
+2026-07-05 22:54:21 [info]: [LOGIN PASSWORD CHECK] isMatch for 'student@suncity.com': true
