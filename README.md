@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-A modern School Management System built using the MERN Stack that simplifies academic administration through role-based dashboards, analytics, attendance management, student records, and institutional workflows.
+A production-ready School ERP built with the MERN Stack that digitizes academic administration through role-based dashboards, student management, faculty management, attendance, analytics, and secure authentication.
 </p>
 
 <p align="center">
@@ -26,22 +26,9 @@ A modern School Management System built using the MERN Stack that simplifies aca
 
 # 📖 Overview
 
-Managing school operations manually is time-consuming and inefficient.
+School ERP & Analytics Platform is a complete web application developed to simplify the day-to-day management of educational institutions.
 
-This platform digitizes the complete workflow of an educational institution by providing separate dashboards for administrators, teachers, and students.
-
-It centralizes:
-
-- Student Management
-- Faculty Management
-- Attendance
-- Academic Records
-- Analytics
-- Courses
-- User Management
-- Reports
-
-The project follows a scalable MERN architecture that closely resembles real-world ERP software used by schools and coaching institutes.
+The platform provides dedicated dashboards for Administrators, Teachers, and Students while managing academic workflows in a secure and scalable environment.
 
 ---
 
@@ -50,24 +37,22 @@ The project follows a scalable MERN architecture that closely resembles real-wor
 ## 👨‍💼 Admin Panel
 
 - Student Management
-- Teacher Management
-- Course Management
-- Dashboard Analytics
+- Faculty Management
 - Attendance Monitoring
-- Performance Reports
-- User Role Management
-- Secure Authentication
+- Dashboard Analytics
+- Role Based Access
+- Course Management
+- Academic Reports
 
 ---
 
-## 👨‍🏫 Faculty Panel
+## 👨‍🏫 Teacher Panel
 
-- Manage Courses
-- Upload Study Material
-- Create Tests & Quizzes
+- Manage Students
 - Attendance Management
-- Student Performance Tracking
-- Marks Management
+- Academic Records
+- Course Management
+- Student Performance
 
 ---
 
@@ -75,31 +60,29 @@ The project follows a scalable MERN architecture that closely resembles real-wor
 
 - Personal Dashboard
 - Attendance Tracking
-- Course Materials
-- Quiz Participation
-- Academic Reports
-- Progress Analytics
+- Academic Records
+- Course Details
+- Performance Reports
 
 ---
 
-# 🚀 Key Highlights
+# 🚀 Key Features
 
-- ✅ Modern MERN Architecture
-- ✅ Responsive UI
-- ✅ Dashboard Analytics
-- ✅ Role-Based Access Control
-- ✅ RESTful API Design
+- ✅ Role Based Authentication
+- ✅ Modern Dashboard UI
+- ✅ Responsive Design
+- ✅ REST API Architecture
+- ✅ Secure JWT Authentication
 - ✅ Modular Backend
-- ✅ Scalable Folder Structure
-- ✅ Clean UI/UX
-- ✅ Production-Oriented Codebase
+- ✅ Clean Folder Structure
+- ✅ Production Inspired Architecture
 
 ---
 
 # 🛠 Tech Stack
 
 | Category | Technologies |
-|------------|--------------------------------|
+|------------|----------------------------|
 | Frontend | React.js, JavaScript, Tailwind CSS |
 | Backend | Node.js, Express.js |
 | Database | MongoDB |
@@ -110,17 +93,68 @@ The project follows a scalable MERN architecture that closely resembles real-wor
 
 ---
 
-# 📂 Project Structure
+# 📸 Application Preview
+
+## 🏠 Admin Dashboard
+
+<p align="center">
+<img src="./screenshots/admin.png" width="95%">
+</p>
+
+---
+
+## 👨‍🎓 Student Dashboard
+
+<p align="center">
+<img src="./screenshots/student.png" width="95%">
+</p>
+
+---
+
+## 👨‍🏫 Teacher Dashboard
+
+<p align="center">
+<img src="./screenshots/teacher.png" width="95%">
+</p>
+
+---
+
+## 🔐 Registration Page
+
+<p align="center">
+<img src="./screenshots/register.png" width="95%">
+</p>
+
+---
+
+# 🏗️ System Architecture
 
 ```text
-School_Management/
+                React Frontend
+                      │
+                      ▼
+             Express REST APIs
+                      │
+      ┌───────────────┼───────────────┐
+      ▼               ▼               ▼
+ Authentication   Business Logic   Analytics
+                      │
+                      ▼
+                 MongoDB Database
+```
+
+---
+
+# 📂 Folder Structure
+
+```text
+School-ERP-Analytics-Platform/
 
 client/
 │
 ├── components/
 ├── pages/
 ├── layouts/
-├── context/
 ├── hooks/
 └── assets/
 
@@ -140,63 +174,12 @@ README.md
 
 ---
 
-# 📸 Application Preview
-
-## Dashboard
-
-![](screenshots/dashboard.png)
-
----
-
-## Student Portal
-
-![](screenshots/student-dashboard.png)
-
----
-
-## Teacher Dashboard
-
-![](screenshots/teacher-dashboard.png)
-
----
-
-## Analytics
-
-![](screenshots/analytics.png)
-
----
-
-## Attendance Module
-
-![](screenshots/attendance.png)
-
----
-
-# 🏗 System Architecture
-
-```text
-                React Frontend
-                      │
-                      ▼
-             REST API (Express.js)
-                      │
-      ┌───────────────┼───────────────┐
-      ▼               ▼               ▼
- Authentication   Business Logic   Dashboard APIs
-      │               │               │
-      └───────────────┼───────────────┘
-                      ▼
-                  MongoDB Atlas
-```
-
----
-
-# ⚙ Installation
+# ⚙️ Installation
 
 ## Clone Repository
 
 ```bash
-git clone https://github.com/sparshdwivedi19/School_Management.git
+git clone https://github.com/sparshdwivedi19/School-ERP-Analytics-Platform.git
 ```
 
 ---
@@ -245,125 +228,58 @@ CLOUDINARY_SECRET=
 
 ---
 
-# 📈 Performance Optimizations
-
-- Optimized MongoDB Queries
-
-- Modular Backend Architecture
-
-- Reusable React Components
-
-- Lazy Loading
-
-- Efficient State Management
-
-- Responsive Layout
-
-- RESTful API Structure
-
-- Clean Folder Organization
-
----
-
-# 🚀 Production Readiness
-
-This project is designed following modern software engineering principles.
-
-### Frontend
-
-- Component-based architecture
-
-- Responsive layouts
-
-- Reusable UI components
-
-- Optimized rendering
-
----
-
-### Backend
-
-- REST API architecture
-
-- Modular controllers
-
-- Middleware-based authentication
-
-- Secure environment variables
-
-- Organized routing
-
----
-
-### Scalability
-
-- Easy to add new modules
-
-- Role-based permissions
-
-- Expandable analytics
-
-- Maintainable folder structure
-
----
-
-# 📅 Roadmap
-
-Upcoming features include:
+# 🚀 Future Enhancements
 
 - AI-powered Student Performance Prediction
-
 - Parent Dashboard
-
-- Fee Management
-
+- Fee Management System
 - Timetable Generator
-
 - WhatsApp Notifications
-
 - Email Notifications
-
-- Mobile Application
-
-- Online Examination System
-
+- Online Examination Portal
 - Report Generation
+- Mobile Application
 
 ---
 
-# 📌 Learning Outcomes
+# 📚 Learning Outcomes
 
 During this project I gained practical experience in:
 
-- Full Stack MERN Development
-
+- MERN Stack Development
 - REST API Development
-
 - MongoDB Data Modeling
-
-- Authentication & Authorization
-
+- JWT Authentication
 - Dashboard Development
-
-- Real-world ERP Workflow Design
-
 - Responsive UI Design
-
-- Project Architecture
+- Role Based Access Control
+- Real-world ERP Architecture
 
 ---
 
 # 🤝 Contributing
 
-Contributions are welcome.
+Contributions are welcome!
 
 1. Fork the repository
 
-2. Create a new feature branch
+2. Create your feature branch
+
+```bash
+git checkout -b feature/NewFeature
+```
 
 3. Commit your changes
 
-4. Push the branch
+```bash
+git commit -m "Add New Feature"
+```
+
+4. Push to the branch
+
+```bash
+git push origin feature/NewFeature
+```
 
 5. Open a Pull Request
 
@@ -373,30 +289,25 @@ Contributions are welcome.
 
 ## Sparsh Dwivedi
 
-B.Tech Computer Science & Engineering
+🎓 B.Tech Computer Science & Engineering
 
-IIITDM Jabalpur
+🏫 IIITDM Jabalpur
 
 ### Connect with me
 
 - GitHub: https://github.com/sparshdwivedi19
-
-- LinkedIn: YOUR_LINKEDIN
-
-- Portfolio: YOUR_PORTFOLIO
-
-- Email: YOUR_EMAIL
+- LinkedIn: *(Add your LinkedIn URL)*
+- Portfolio: *(Add your Portfolio URL)*
+- Email: *(Add your Email Address)*
 
 ---
 
 # ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you like this project, consider giving it a ⭐ on GitHub.
 
 It motivates me to build more real-world software projects.
 
 <p align="center">
-
 Made with ❤️ using React • Node.js • Express.js • MongoDB
-
 </p>
